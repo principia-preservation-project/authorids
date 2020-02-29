@@ -1,0 +1,43 @@
+---
+---
+body {
+	font-family: monospace;
+	font-size: 12pt;
+	background-color: #2e2e2e;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #6b9fe2;
+	text-decoration: none;
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+.wrapper {
+	margin: auto;
+	width: 95%;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+	width: 80%;
+
+	th, td {
+		border: 3px solid #ccc;
+		padding: 15px;
+		text-align: center;
+	}
+}
+
+.center, .rub {
+	text-align: center;
+}
+.rub {
+	padding-bottom: 10px;
+	border-bottom: 4px dashed #fff;
+}

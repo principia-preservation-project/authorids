@@ -1,0 +1,14 @@
+# Jekyll configuration file
+
+title: Principia Author IDs
+baseurl: "/authorids"
+url: "http://127.0.0.1:4000"
+
+markdown_ext: "md,dat"
+
+exclude:
+  - _items/_template.dat
+
+collections:
+  authors:
+    permalink: /:name

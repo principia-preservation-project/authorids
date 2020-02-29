@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<table>
+	<tr>
+		<th width=100>Author ID</th>
+		<th>Name</th>
+	</tr>
+	{%- for page in site.authors -%}
+	<tr>
+		<td>{{ page.authorid }}</td>
+		<td>{{ page.user }}</td>
+	</tr>
+	{%- endfor -%}
+</table>
